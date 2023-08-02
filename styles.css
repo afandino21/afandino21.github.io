@@ -1,0 +1,98 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    background-image: url('fondo.jpg');
+    /* Reemplaza 'ruta/imagen-de-fondo.jpg' con la URL de tu imagen de fondo para el body */
+    background-size: cover;
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+}
+
+.content_background {
+    width: 100%;
+    /* height: 100vh; */
+    backdrop-filter: blur(5px);
+    /* Ajusta el valor de desenfoque según lo desees */
+    background-color: rgba(255, 255, 255, 0.503);
+    /* Ajusta el color y la opacidad según lo desees */
+    /* display: flex; */
+    /* align-items: center; */
+}
+
+ul {
+    list-style: none;
+
+}
+
+li {
+    padding-top: 15px;
+}
+
+.comienzo_fin {
+    text-align: center;
+    background-color: rgb(138, 138, 138);
+    color: black;
+}
+
+a {
+    color: black;
+}
+
+.titulos {
+    text-align: center;
+}
+
+#exp_prof {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.column {
+    padding-left: 10px;
+    text-justify: center;
+    text-align: center;
+
+}
+
+#tabla {
+    align-items: center;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+}
+
+td {
+    padding-left: 10px;
+}
+
+
+.conocimientos_titulo {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.listado_horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* Alinea los elementos en ambos extremos */
+    gap: 10px;
+    /* Espacio de 10px entre los elementos */
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5px;
+}
+
+#intro {
+    padding: 5%;
+    text-align: justify;
+}
